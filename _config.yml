@@ -1,0 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            asif
+tagline:          'A Jekyll theme'
+description:      'bla bla bla'
+url:              https://mdasifjoardar.github.io/
+baseurl:          /
+
+author:
+  name:           'asif'
+  url:            https://mdasifjoardar.github.io/
+
+paginate:         5
+
+# Custom vars
+
+github:
+  repo:           https://github.com/mdasifjoardar/mdasifjoardar.github.io
