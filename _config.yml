@@ -1,24 +1,29 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
 
 # Setup
 title:            asif
-tagline:          'A Jekyll theme'
-description:      'bla bla bla'
-url:              https://mdasifjoardar.github.io/
-baseurl:          /
+tagline:          'A Jekyll Theme'
+# The description is used in the meta description tag (_includes/head.html).
+# If you want to use it in the sidebar, uncomment its code under the tagline
+# in _includes/sidebar.html
+description:      'A Jekyll theme based on the original Hyde and the refreshed Hydeout.'
+url:              https://mdasifjoardar.github.io
+baseurl:          
 
 author:
-  name:           'asif'
-  url:            https://mdasifjoardar.github.io/
+  name:           'John Devine'
+  url:            https://mdasifjoardar.github.io
 
-paginate:         5
-
-# Custom vars
+paginate:         3
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
 github:
   repo:           https://github.com/mdasifjoardar/mdasifjoardar.github.io
